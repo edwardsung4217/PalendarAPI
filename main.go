@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/edwardsung4217/PalendarAPI/handlers"
+	"github.com/VolunteerOne/volunteer-one-app/backend/handlers"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )
@@ -14,6 +14,7 @@ func main() {
 	r := gin.Default()
 	r.GET("/", handlers.RootHandler)
 	r.GET("/Example", handlers.ExampleHandler)
+	r.Get("/events", handlers.eventsHandler)
 
 	r.Run()
 }
