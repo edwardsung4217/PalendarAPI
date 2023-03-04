@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/VolunteerOne/volunteer-one-app/backend/handlers"
+	"github.com/edwardsung4217/PalendarAPI/handlers"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )
