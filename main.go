@@ -9,6 +9,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
+// eww
 func main() {
 	r := gin.Default()
 	r.GET("/", handlers.RootHandler)
